@@ -53,5 +53,6 @@ $dom->formatOutput = true; // установка атрибута formatOutput
 $test1 = $dom->saveXML(); // передача строки в test1 
 $dom->save('test1.xml'); // сохранение файла 
 
+//слушаем наш файл в броузере
 echo ($test1);
 ?>
